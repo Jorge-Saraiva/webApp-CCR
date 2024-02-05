@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  endpoint: "https://webapp-server-lhb9d1rzv-jorge-luis-otelo-saraivas-projects.vercel.app/"
+  endpoint: "https://server-45fhtf4u4-jorge-luis-otelo-saraivas-projects.vercel.app/"
 };

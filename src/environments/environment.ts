@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  endpoint: "https://webapp-server-lhb9d1rzv-jorge-luis-otelo-saraivas-projects.vercel.app/"
+  endpoint: "http://localhost:3000/"
 };
 
 /*
