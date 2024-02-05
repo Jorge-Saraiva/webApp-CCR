@@ -1,0 +1,30 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav class="sidenav" mode="side" opened=""
+      fixedInViewport="true" fixedTopGap="64">
+      <mat-nav-list class="nav-list">
+        <a mat-list-item routerLink="/">
+          <i class="material-icons"> home </i>
+          Home
+        </a>
+        <a mat-list-item routerLink="places">
+          <i class="material-icons"> add_location_alt </i>
+          Cadastrar Endereços
+        </a>
+        <a mat-list-item routerLink="qrcodes">
+          <i class="material-icons"> qr_code_scanner </i>
+          Gerar QR Code
+        </a>
+        <a mat-list-item routerLink="reports">
+          <i class="material-icons"> description </i>
+          Relatório Registros
+        </a>
+        <a mat-list-item routerLink="users">
+          <i class="material-icons"> person_add_alt </i>
+          Cadastrar Usuários
+        </a>
+      </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="content">
+      <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

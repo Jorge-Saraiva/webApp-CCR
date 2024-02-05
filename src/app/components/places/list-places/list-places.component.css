@@ -1,0 +1,60 @@
+table {
+  width: 100%;
+}
+
+#addPlace {
+  background-color: var(--elements-color);
+  color: var(--text-color);
+}
+
+/* Filter */
+.filterAndbtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  min-width: 250px;
+}
+
+mat-form-field input {
+  padding: 0 5px;
+}
+
+/* Action Buttons */
+.btnEdit,
+.btnDelete {
+  cursor: pointer;
+  margin: 0 5px ;
+}
+
+.btnEdit {
+  color: rgb(38, 182, 38);
+}
+
+.btnDelete {
+  color: rgb(202, 52, 25);
+}
+
+#action {
+  padding-left: 15px;
+}
+
+
+/* Snack Bar */
+.msg-success,
+.msg-error {
+  color: var(--text-color);
+}
+
+.msg-success {
+  background-color: rgb(7, 169, 7);
+}
+
+.msg-error {
+  background-color: #e35e6b;
+}
+

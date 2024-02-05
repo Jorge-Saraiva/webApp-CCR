@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  justify-content: end;
+}
+
+#name {
+  font-weight: 500;
+  color: var(--elements-color);
+}
+
+.footer span {
+  font-size: 1rem;
+  opacity: 0.9;
+}

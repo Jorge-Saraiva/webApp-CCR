@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  --elements-color: rgb(0, 155, 218);
+  --text-color: #FFF;
+  --error-color: #b41e3f;
+  --success-color: rgb(21, 190, 21);
+}
+
+.formConfirm:valid {
+  background-color: var(--elements-color);
+  color: var(--text-color);
+}
+
+h2 {
+  color: var(--elements-color);
+}
+
+td {
+  text-transform: capitalize;
+}
+
+.msg-success{
+  background-color: var(--success-color);
+  color: var(--text-color);
+}
+
+.msg-error{
+  background-color: var(--error-color);
+  color: var(--text-color);
+}
+
+ /* Forms (Create & Edit) */
+ .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.error {
+  color: var(--error-color);
+}
+
+
